@@ -28,24 +28,24 @@
         </tr>
         <table>
             <tr>
-            <td><button onclick=hide(1)>1</button></td>
-            <td><button onclick=hide(2)>2</button></td>
-            <td><button onclick=hide(3)>3</button></td>
+            <td><button onclick=toggle(1)>1</button></td>
+            <td><button onclick=toggle(2)>2</button></td>
+            <td><button onclick=toggle(3)>3</button></td>
             </tr>
             <tr>
-            <td><button onclick=hide(4)>4</button></td>
-            <td><button onclick=hide(5)>5</button></td>
-            <td><button onclick=hide(6)>6</button></td>
+            <td><button onclick=toggle(4)>4</button></td>
+            <td><button onclick=toggle(5)>5</button></td>
+            <td><button onclick=toggle(6)>6</button></td>
             </tr>
             <tr>
-            <td><button onclick=hide(7)>7</button></td>
-            <td><button onclick=hide(8)>8</button></td>
-            <td><button onclick=hide(9)>9</button></td>
+            <td><button onclick=toggle(7)>7</button></td>
+            <td><button onclick=toggle(8)>8</button></td>
+            <td><button onclick=toggle(9)>9</button></td>
             </tr>
     </table>
     <script>
-    function hide(a){
-        $("#mole"+a).hide(a);
+    function toggle(a){
+        $("#mole"+a).toggle(a);
     }</script>
 </body>
 </html>
